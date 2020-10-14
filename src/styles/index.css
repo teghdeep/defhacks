@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eeffee;
+}
+
+.App {
+  margin: 2px, 15px, 15px, 15px;
+  text-align: center;
+}
+
+.Home {
+  padding-top: 35px;
+}
+
+.Navbar {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.copyright {
+  font-family: 'Karla', sans-serif;
+  color: #777777;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+}
